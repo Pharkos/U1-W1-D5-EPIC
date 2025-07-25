@@ -1,0 +1,215 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+/* Header */
+.headerLogo {
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  line-height: 120px;
+}
+
+.headerLogo img {
+  vertical-align: middle;
+  margin-bottom: 10px;
+  width: 160px;
+  vertical-align: middle;
+}
+
+/* Main Title */
+
+.call-to-action {
+  background-image: url(/assets/Images/banner.jpg);
+  background-image: url(../images/banner.jpg);
+  height: 320px;
+  width: auto;
+  background-position: center;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+  padding: 1.2em 3em 0.7em 3em;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.65;
+  color: #40444d;
+  margin-left: 4.5em;
+  margin-right: 4.5em;
+}
+
+button {
+  height: 3em;
+  width: 9em;
+  background-color: #fb4523;
+  margin-left: 148px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/* Information About Course */
+
+.notebook img {
+  border-radius: 50%;
+}
+
+.courseInfo {
+  background-color: #ffffff;
+}
+
+.infoHeader {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1.2em 0.5em 0.5em 0.5em;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.infoParagraph {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+.garantion {
+  margin-top: 1.6em;
+
+  background-color: #ec2b1e;
+  height: 245px;
+  width: auto;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.garantionHeader {
+  font-weight: bold;
+  font-size: 1.6em;
+  padding: 30px 30px 0px 30px;
+}
+
+.garantionParagraph {
+  font-style: italic;
+  font-size: 1em;
+  padding: 30px;
+}
+
+.name {
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+.ceo {
+  margin-top: 15px;
+  font-size: 0.8em;
+}
+
+/* Cards Section */
+
+.cards {
+  border: solid rgb(176, 175, 175) 2px;
+  margin: 1.2em;
+  border-radius: 5px;
+
+  height: 320px;
+  background-size: cover;
+}
+
+.card-image1 {
+  background-image: url(/assets/Images/foto1.jpg);
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image2 {
+  background-image: url(/assets/Images/foto2.jpg);
+  height: 190px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.card-image3 {
+  background-image: url(/assets/Images/foto3.jpg);
+  height: 190px;
+  background-size: cover;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-content h5 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 1em;
+}
+
+.card-content p {
+  color: #333333;
+}
+
+/*  Footer */
+
+footer {
+  height: 200px;
+
+  background-color: #1b98a8;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  color: #caedee;
+}
+
+li {
+  margin-top: 5px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 1em;
+  text-decoration: none;
+}
+
+a {
+  color: #caedee;
+}
+
+footer h5 {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 1em 0.5em 0.5em 0.5em;
+  color: white;
+}
+
+address p {
+  color: #c3e7ee;
+}
+
+i {
+  margin-right: 6px;
+  color: white;
+}
