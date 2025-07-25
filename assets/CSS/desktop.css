@@ -1,0 +1,96 @@
+body {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 100%;
+  height: 110px;
+  background-color: black;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.call-to-action {
+  background-image: url(/assets/Images/banner.jpg);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: -82px -80px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6em;
+  padding: 5em 3em 1em 3em;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.65;
+  color: #40444d;
+  margin-left: 4.5em;
+  margin-right: 4.5em;
+}
+
+button {
+  height: 5em;
+  width: 14em;
+  background-color: #fb4523;
+  cursor: pointer;
+  border: none;
+  border-radius: 6%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 3em;
+}
+
+.courseInfo {
+  margin-top: 100px;
+}
+
+.notebook {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.content {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.notebook img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.infoHeader {
+  font-size: 1.6em;
+  text-align: left;
+  padding-bottom: 1em 0em;
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.infoParagraph {
+  margin-top: 1em;
+  text-align: left;
+  font-size: 1.4em;
+  line-height: 1.2em;
+  margin-bottom: 1.2rem;
+  color: #333333;
+}
